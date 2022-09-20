@@ -72,10 +72,10 @@ rubric = 9
 
 [[tests]]
 name = "merge_1"
-input = ["./merge", "2", "1", "1"]
+input = ["./merge", "2", "2", "1"]
 expected = """
-C: 1 1
-Asm: 1 1
+C: 1 2
+Asm: 1 2
 """
 rubric = 10
 
