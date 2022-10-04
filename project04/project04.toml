@@ -46,7 +46,7 @@ C: 1 2 3 4 5 6
 Asm: 1 2 3 4 5 6
 Emu: 1 2 3 4 5 6
 """
-rubric = 13
+rubric = 11
 
 [[tests]]
 name = "midpoint"
@@ -76,7 +76,7 @@ C: 6 5 4 3 2 1
 Asm: 6 5 4 3 2 1
 Emu: 6 5 4 3 2 1
 """
-rubric = 13
+rubric = 11
 
 [[tests]]
 name = "to_upper"
@@ -163,7 +163,7 @@ Misses (cold) = 13
 Misses (hot)  = 0
 % Used        = 81.25%
 """
-rubric = 4
+rubric = 1
 
 [[tests]]
 name = "is_pal_analysis_sa_32"
@@ -191,4 +191,4 @@ Misses (cold) = 17
 Misses (hot)  = 0
 % Used        = 53.12%
 """
-rubric = 4
+rubric = 1
