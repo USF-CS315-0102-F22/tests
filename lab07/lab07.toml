@@ -10,7 +10,7 @@ input = ["java", "-cp", "$digital", "CLI", "test", "$project_part1.dig", "-tests
 expected = """
 part1-test: passed
 """
-rubric = 80
+rubric = 50
 
 [[tests]]
 name = "part2"
@@ -18,5 +18,5 @@ input = ["java", "-cp", "$digital", "CLI", "test", "$project_part2.dig", "-tests
 expected = """
 part2-test: passed
 """
-rubric = 20
+rubric = 50
 
