@@ -13,7 +13,7 @@
         <entry>
           <string>Testdata</string>
           <testData>
-            <dataString>CLK EN CLR PROG T0 T1 T2
+            <dataString>CLK EN CLR PROG A0 A1 A2
 0   0   1   0    x x x
 1   0   1   0    x x x
 0   1   0   0    x x x
