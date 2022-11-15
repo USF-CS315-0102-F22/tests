@@ -6,7 +6,7 @@ Use default settings!
 
 [[tests]]
 name = "00-add-r"
-input = ["java", "-cp", "$digital", "CLI", "test", "project06-v2.dig", "-tests", "$project_tests/00-add-r-test.dig"]
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/00-add-r-test.dig"]
 expected = """
 00-add-r-test: passed
 """
@@ -14,7 +14,7 @@ rubric = 2
 
 [[tests]]
 name = "01-add-i"
-input = ["java", "-cp", "$digital", "CLI", "test", "project06-v2.dig", "-tests", "$project_tests/01-add-i-test.dig"]
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/01-add-i-test.dig"]
 expected = """
 01-add-i-test: passed
 """
@@ -22,7 +22,7 @@ rubric = 2
 
 [[tests]]
 name = "02-sll-r"
-input = ["java", "-cp", "$digital", "CLI", "test", "project06-v2.dig", "-tests", "$project_tests/02-sll-r-test.dig"]
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/02-sll-r-test.dig"]
 expected = """
 02-sll-r-test: passed
 """
@@ -30,28 +30,60 @@ rubric = 2
 
 [[tests]]
 name = "03-sll-i"
-input = ["java", "-cp", "$digital", "CLI", "test", "project06-v2.dig", "-tests", "$project_tests/03-sll-i-test.dig"]
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/03-sll-i-test.dig"]
 expected = """
 03-sll-i-test: passed
 """
 rubric = 2
 
-# [[tests]]
-# name = "04-dp-asr-imm"
-# input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/04-dp-asr-imm-test.dig"]
-# expected = """
-# 04-dp-asr-imm-test: passed
-# """
-# rubric = 2
-# 
-# [[tests]]
-# name = "05-mem-reg"
-# input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/05-mem-reg-test.dig"]
-# expected = """
-# 05-mem-reg-test: passed
-# """
-# rubric = 2
-# 
+[[tests]]
+name = "04-srl-r"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/04-srl-r-test.dig"]
+expected = """
+04-srl-l-test: passed
+"""
+rubric = 2
+
+[[tests]]
+name = "05-srl-i"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/05-srl-i-test.dig"]
+expected = """
+05-srl-i-test: passed
+"""
+rubric = 2
+
+[[tests]]
+name = "06-sd-ld"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/06-sd-ld-test.dig"]
+expected = """
+06-sd-ld-test: passed
+"""
+rubric = 2
+
+[[tests]]
+name = "07-sw-lw"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/07-sw-lw-test.dig"]
+expected = """
+07-sw-lw-test: passed
+"""
+rubric = 2
+
+[[tests]]
+name = "08-jal"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/08-jal-test.dig"]
+expected = """
+08-jal-test: passed
+"""
+rubric = 2
+
+[[tests]]
+name = "09-j"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/09-j-test.dig"]
+expected = """
+09-j-test: passed
+"""
+rubric = 2
+
 # [[tests]]
 # name = "06-mem-imm"
 # input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/06-mem-imm-test.dig"]
