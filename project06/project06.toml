@@ -40,7 +40,7 @@ rubric = 2
 name = "04-srl-r"
 input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/04-srl-r-test.dig"]
 expected = """
-04-srl-l-test: passed
+04-srl-r-test: passed
 """
 rubric = 2
 
