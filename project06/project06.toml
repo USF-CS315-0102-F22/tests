@@ -132,15 +132,14 @@ expected = """
 """
 rubric = 2
 
-# 
-# [[tests]]
-# name = "15-quadratic"
-# input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/15-quadratic-test.dig"]
-# expected = """
-# 15-quadratic-test: passed
-# """
-# rubric = 5
-# 
+[[tests]]
+name = "16-quadratic"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/16-quadratic-test.dig"]
+expected = """
+16-quadratic-test: passed
+"""
+rubric = 5
+
 # [[tests]]
 # name = "16-get_bitseq"
 # input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/16-get-bitseq-test.dig"]
