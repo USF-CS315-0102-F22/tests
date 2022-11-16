@@ -13,13 +13,13 @@
         <entry>
           <string>Testdata</string>
           <testData>
-            <dataString>CLR CLK PROG A0
-1   0   x    x
-0   0   x    x
+            <dataString>EN CLR CLK PROG A0
+1  1   0   x    x
+1  0   0   x    x
 while (!(DONE))
-0   C   8    x
+1  0   C   8    x
 end while
-0   0   8    3</dataString>
+1  0   0   8    3</dataString>
           </testData>
         </entry>
       </elementAttributes>
