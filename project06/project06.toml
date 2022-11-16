@@ -92,6 +92,14 @@ expected = """
 """
 rubric = 2
 
+[[tests]]
+name = "11-blt"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/11-blt-test.dig"]
+expected = """
+11-blt-test: passed
+"""
+rubric = 2
+
 # 
 # [[tests]]
 # name = "15-quadratic"
