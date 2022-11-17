@@ -156,10 +156,11 @@ rubric = 5
 # """
 # rubric = 5
 # 
-# [[tests]]
-# name = "18-fib-rec"
-# input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/18-fib-rec-test.dig"]
-# expected = """
-# 18-fib-rec-test: passed
-# """
-# rubric = 5
+
+[[tests]]
+name = "19-fib-rec"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/19-fib-rec-test.dig"]
+expected = """
+19-fib-rec-test: passed
+"""
+rubric = 5
