@@ -8,7 +8,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>19-fib-rec-test</string>
+          <string>18-max3-test</string>
         </entry>
         <entry>
           <string>Testdata</string>
@@ -17,9 +17,9 @@
 1   0   0   x    x
 0   0   0   x    x
 while (!(DONE))
-0   1   C   19   x
+0   1   C   18   x
 end while
-0   1   0   19   55</dataString>
+0   1   0   18   2</dataString>
           </testData>
         </entry>
       </elementAttributes>
