@@ -164,3 +164,11 @@ expected = """
 19-fib-rec-test: passed
 """
 rubric = 5
+
+[[tests]]
+name = "20-is-pal"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/20-is-pal-test.dig"]
+expected = """
+20-is-pal-test: passed
+"""
+rubric = 5
