@@ -171,3 +171,11 @@ expected = """
 20-is-pal-test: passed
 """
 rubric = 5
+
+[[tests]]
+name = "21-to-upper"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/21-to-upper-test.dig"]
+expected = """
+21-to-upper-test: passed
+"""
+rubric = 5
