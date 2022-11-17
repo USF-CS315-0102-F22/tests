@@ -140,13 +140,13 @@ expected = """
 """
 rubric = 5
 
-# [[tests]]
-# name = "16-get_bitseq"
-# input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/16-get-bitseq-test.dig"]
-# expected = """
-# 16-get-bitseq-test: passed
-# """
-# rubric = 5
+[[tests]]
+name = "17-get-bitseq"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/17-get-bitseq-test.dig"]
+expected = """
+17-get-bitseq-test: passed
+"""
+rubric = 5
 # 
 # [[tests]]
 # name = "17-max3"
