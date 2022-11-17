@@ -179,3 +179,11 @@ expected = """
 21-to-upper-test: passed
 """
 rubric = 5
+
+[[tests]]
+name = "22-sort"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/22-sort-test.dig"]
+expected = """
+22-sort-test: passed
+"""
+rubric = 5
