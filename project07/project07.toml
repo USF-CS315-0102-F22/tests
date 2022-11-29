@@ -4,39 +4,37 @@ strip_output = """
 Use default settings!
 """
 
-# Commenting these out since students won't use them but I used them to validate the circuit
+[[tests]]
+name = "00-add-3nop"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/00-add-3nop-test.dig"]
+expected = """
+00-add-3nop-test: passed
+"""
+rubric = 1
 
-# [[tests]]
-# name = "00-add-3nop"
-# input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/00-add-3nop-test.dig"]
-# expected = """
-# 00-add-3nop-test: passed
-# """
-# rubric = 1
-# 
-# [[tests]]
-# name = "01-add-2nop"
-# input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/01-add-2nop-test.dig"]
-# expected = """
-# 01-add-2nop-test: passed
-# """
-# rubric = 1
-# 
-# [[tests]]
-# name = "02-jal"
-# input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/02-jal-test.dig"]
-# expected = """
-# 02-jal-test: passed
-# """
-# rubric = 1
-# 
-# [[tests]]
-# name = "03-lw"
-# input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/03-lw-test.dig"]
-# expected = """
-# 03-lw-test: passed
-# """
-# rubric = 1
+[[tests]]
+name = "01-add-2nop"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/01-add-2nop-test.dig"]
+expected = """
+01-add-2nop-test: passed
+"""
+rubric = 3
+
+[[tests]]
+name = "02-jal"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/02-jal-test.dig"]
+expected = """
+02-jal-test: passed
+"""
+rubric = 3
+
+[[tests]]
+name = "03-lw"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/03-lw-test.dig"]
+expected = """
+03-lw-test: passed
+"""
+rubric = 3
 
 [[tests]]
 name = "04-add-fwd"
