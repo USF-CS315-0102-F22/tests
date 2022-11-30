@@ -42,7 +42,7 @@ input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$p
 expected = """
 04-add-fwd-test: passed
 """
-rubric = 80
+rubric = 70
 
 [[tests]]
 name = "05-lw-stl"
