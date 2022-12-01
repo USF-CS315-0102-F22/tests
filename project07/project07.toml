@@ -29,10 +29,10 @@ expected = """
 rubric = 3
 
 [[tests]]
-name = "03-lw"
-input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/03-lw-test.dig"]
+name = "03-ld"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/03-ld-test.dig"]
 expected = """
-03-lw-test: passed
+03-ld-test: passed
 """
 rubric = 3
 
@@ -45,10 +45,10 @@ expected = """
 rubric = 70
 
 [[tests]]
-name = "05-lw-stl"
-input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/05-lw-stl-test.dig"]
+name = "05-ld-stl"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/05-ld-stl-test.dig"]
 expected = """
-05-lw-stl-test: passed
+05-ld-stl-test: passed
 """
 rubric = 10
 
