@@ -8,7 +8,7 @@ Autograder tests repo for CS 315 Fall 2022
   </tr>
   <tr>
   <td>
-    <a href="https:/www.usfca.edu">Project01</a>
+    <a href="https://www.usfca.edu">Project01</a>
   </td>
   <td>
     <a href="https://www.usfca.edu">Test01</a>
